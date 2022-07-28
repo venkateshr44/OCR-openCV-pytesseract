@@ -4,4 +4,6 @@ Simple OCR which performs the NLP task to extract the text and other information
 
 ## Working
 
-### ocr.py
+### bbox.py
+This python script is used to get the bounding box information from the template image.
+
