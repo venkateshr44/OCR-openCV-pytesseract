@@ -72,6 +72,7 @@ step 6: Cropping the region of interests.
 
 step 7: Checks the type of the region. <br>
         
+        ```
         * If the type is text
             pytesseract converts the image to string using inbuilt function image_to_string.
             
@@ -83,6 +84,7 @@ step 7: Checks the type of the region. <br>
                 then box is checked
             else
                 box is unchecked
+         ```
            
 step 8: Storing the information in .csv file. 
 ```
