@@ -65,14 +65,12 @@ step 4: Finding the keypoints and descriptors of the testing images using ORB de
 
 step 5: Aligning the images it wont make much difference in testing images if it is already aligned.
 
-step 6: Masking the region of interests.
-
-step 7: Cropping the region of interests.
+step 6: Cropping the region of interests.
 
 <img src="images/crop.jpg" width = 600>
 <br>
 
-step 8: Checks the type of the region. <br>
+step 7: Checks the type of the region. <br>
         
         * If the type is text
             pytesseract converts the image to string using inbuilt function image_to_string.
@@ -86,7 +84,7 @@ step 8: Checks the type of the region. <br>
             else
                 box is unchecked
            
-step 9: Storing the information in .csv file. 
+step 8: Storing the information in .csv file. 
 ```
 Data.csv
 ```
