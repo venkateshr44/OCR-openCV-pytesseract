@@ -58,3 +58,19 @@ step 6: Aligning the images it wont make much difference in testing images if it
 step 7: Masking the region of interests.
 
 step 8: Cropping the region of interests.
+
+step 9: Checks the type of the region. 
+        If text
+            ```
+            pytesseract converts the image to string using inbuilt function image_to_string.
+            ```
+        If box
+            Converts the image into grayscale and then converts it into binary image where foreground and background gets seperated.
+            Counting the non zero pixels of the cropped image
+            ```
+            If the count is greater than the set threshold value
+                then box is checked
+            else
+                box is unchecked
+            ```
+
