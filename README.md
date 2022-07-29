@@ -43,23 +43,29 @@ This is the output we get after execution. This simply represent the bounding bo
 
 In this python script the actual extraction of informations from the image takes place.
 
-step 1: Importing the necessary packages and template image and providing bounding box information.
+### step 1: Importing the necessary packages and template image and providing bounding box information.
+
+<img src="images/template.jpg" width = 600>
 
 step 2: Finding the keypoints and descriptors of the template image using ORB detector.
+
+<img src="images/orb.jpg" width = 600>
 
 step 3: Importing the testing images.
 
 step 4: Finding the keypoints and descriptors of the testing images using ORB detector and matching the descriptors using brute force matcher.
 
-step 5: Matching the descriptors of template image and testing images.
+<img src="images/matcher.jpg" width = 600>
 
-step 6: Aligning the images it wont make much difference in testing images if it is already aligned.
+step 5: Aligning the images it wont make much difference in testing images if it is already aligned.
 
-step 7: Masking the region of interests.
+step 6: Masking the region of interests.
 
-step 8: Cropping the region of interests.
+step 7: Cropping the region of interests.
 
-step 9: Checks the type of the region. <br>
+<img src="images/crop.jpg" width = 600>
+
+step 8: Checks the type of the region. <br>
         
         * If the type is text
             pytesseract converts the image to string using inbuilt function image_to_string.
@@ -73,5 +79,5 @@ step 9: Checks the type of the region. <br>
                 box is unchecked
          
 ## Data.csv    
-step 10: Storing the information in .csv file. 
+step 9: Storing the information in .csv file. 
 
