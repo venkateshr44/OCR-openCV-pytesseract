@@ -43,7 +43,7 @@ This is the output we get after execution. This simply represent the bounding bo
 
 In this python script the actual extraction of informations from the image takes place.
 
-### step 1: Importing the necessary packages and template image and providing bounding box information.
+step 1: Importing the necessary packages and template image and providing bounding box information.
 
 <img src="images/template.jpg" width = 600>
 
