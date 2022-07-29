@@ -80,7 +80,8 @@ step 8: Checks the type of the region. <br>
                 then box is checked
             else
                 box is unchecked
-         
-## Data.csv    
+           
 step 9: Storing the information in .csv file. 
-
+```
+Data.csv
+```
