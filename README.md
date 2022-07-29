@@ -45,15 +45,15 @@ In this python script the actual extraction of informations from the image takes
 
 step 1: Importing the necessary packages and template image and providing bounding box information.
 
-<img src="images/matcher.jpg" width = 600>
+<img src="images/template.jpg" width = 600>
 
 step 2: Finding the keypoints and descriptors of the template image using ORB detector.
 
-<img src="images/matcher.jpg" width = 600>
+<img src="images/orb.jpg" width = 600>
 
 step 3: Importing the testing images. 
 ```
-Testing
+/Testing
 ```
 
 step 4: Finding the keypoints and descriptors of the testing images using ORB detector and matching the descriptors using brute force matcher.
