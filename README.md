@@ -51,7 +51,10 @@ step 2: Finding the keypoints and descriptors of the template image using ORB de
 
 <img src="images/matcher.jpg" width = 600>
 
-step 3: Importing the testing images. <br> Testing
+step 3: Importing the testing images. 
+```
+Testing
+```
 
 step 4: Finding the keypoints and descriptors of the testing images using ORB detector and matching the descriptors using brute force matcher.
 
