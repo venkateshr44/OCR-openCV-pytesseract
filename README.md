@@ -60,7 +60,7 @@ step 3: Importing the testing images.
 
 step 4: Finding the keypoints and descriptors of the testing images using ORB detector and matching the descriptors using brute force matcher.
 
-<img src="images/matcher.jpg" width = 600>
+
 <br>
 
 step 5: Aligning the images. It wont make much difference in testing images if it is already aligned.
