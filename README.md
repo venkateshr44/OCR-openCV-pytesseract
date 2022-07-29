@@ -61,7 +61,8 @@ step 8: Cropping the region of interests.
 
 step 9: Checks the type of the region. <br>
         
-        * If the type is text<br>
+        * If the type is text 
+        <br>
             ```
             pytesseract converts the image to string using inbuilt function image_to_string.
             ```
