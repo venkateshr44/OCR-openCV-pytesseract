@@ -60,11 +60,11 @@ step 7: Masking the region of interests.
 step 8: Cropping the region of interests.
 
 step 9: Checks the type of the region. 
-        If text
+        * If the type is text
             ```
             pytesseract converts the image to string using inbuilt function image_to_string.
             ```
-        If box
+        * If the type is box
             Converts the image into grayscale and then converts it into binary image where foreground and background gets seperated.
             Counting the non zero pixels of the cropped image
             ```
