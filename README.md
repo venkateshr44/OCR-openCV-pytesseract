@@ -71,6 +71,7 @@ step 9: Checks the type of the region. <br>
                 then box is checked
             else
                 box is unchecked
-             
-step 10: Storing the data in .csv file. Here I used ###data.csv to store the information.
+         
+## Data.csv    
+step 10: Storing the data in .csv file. 
 
