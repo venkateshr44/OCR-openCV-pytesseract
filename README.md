@@ -63,7 +63,7 @@ step 4: Finding the keypoints and descriptors of the testing images using ORB de
 <img src="images/matcher.jpg" width = 600>
 <br>
 
-step 5: Aligning the images it wont make much difference in testing images if it is already aligned.
+step 5: Aligning the images. It wont make much difference in testing images if it is already aligned.
 
 step 6: Cropping the region of interests.
 
