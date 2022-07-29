@@ -39,7 +39,7 @@ This is the output we get after execution. This simply represent the bounding bo
  [(36, 792), (84, 832), 'box', 'Corporation'],
  [(258, 930), (306, 974), 'box', 'card_yes']]
 ```
-## ocr.py
+## ocr.py.
 
 In this python script the actual extraction of informations from the image takes place.
 
