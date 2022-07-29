@@ -7,7 +7,7 @@ Initially any kind of forms needs to be converted into image. Then we have the s
 ### bbox.py
 This python script is used to get the bounding box information from the template image. Here template image is used as referencing image. We have to the mark the regions using the mouse. After marking the region it will ask for type and name of the region. To make sure the same region is not marked again the marked points will be coloured after marking.
 
-<img src="images/box.jpg" width = 800>
+<img src="images/box.jpg" width = 500>
 
 ```
 Enter Type text
