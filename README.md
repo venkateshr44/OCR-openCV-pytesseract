@@ -49,7 +49,7 @@ step 2: Finding the keypoints and descriptors of the template image using ORB de
 
 step 3: Importing the testing images.
 
-step 4: Finding the keypoints and descriptors of the testing images using ORB detector.
+step 4: Finding the keypoints and descriptors of the testing images using ORB detector and matching the descriptors using brute force matcher.
 
 step 5: Matching the descriptors of template image and testing images.
 
