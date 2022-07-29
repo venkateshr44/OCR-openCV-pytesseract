@@ -73,5 +73,7 @@ step 9: Checks the type of the region. <br>
                 box is unchecked
               
 <br>
-step 10: Storing the data in .csv file. Here i used  ```data.csv``` to store the information.
+step 10: Storing the data in .csv file. Here i used  
+```data.csv```
+to store the information.
 
