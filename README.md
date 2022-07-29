@@ -11,6 +11,7 @@ Below image shows the marked regions.
 
 <img src="images/box.jpg" width = 600>
 
+We have to provide the type and name of the regions during execution.
 
 ```
 Enter Type text
@@ -30,10 +31,12 @@ Enter Type box
 Enter Name card_yes
 ```
 
+This is the output we get after execution. This simply represent the bounding box information.
 
+```
 [[(36, 190), (870, 240), 'text', 'Company_name'],
  [(36, 434), (1200, 484), 'text', 'Vendor_Address'],
  [(36, 792), (84, 832), 'box', 'Corporation'],
  [(258, 930), (306, 974), 'box', 'card_yes']]
-
+```
 
