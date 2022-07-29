@@ -45,7 +45,9 @@ In this python script the actual extraction of informations from the image takes
 
 step 1: Importing the necessary packages and template image and providing bounding box information.
 
+```
 <img src="images/template.jpg" width = 600>
+```
 
 step 2: Finding the keypoints and descriptors of the template image using ORB detector.
 
