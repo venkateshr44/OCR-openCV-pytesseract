@@ -4,7 +4,7 @@ Simple OCR which performs the NLP task using openCV and pytesseract to extract t
 ## Working
 Initially any kind of forms needs to be converted into image. Then we have the specify the region of interests means locating the interested regions on the image from where we tend to get the information. For this we will make use of below python script.
 
-### bbox.py
+## bbox.py
 This python script is used to get the bounding box information from the template image. Here template image is used as referencing image. We have to the mark the regions using the mouse. After marking the region it will ask for type and name of the region. To make sure the same region is not marked again the marked points will be coloured after marking.
 
 Below image shows the marked regions.
@@ -39,7 +39,7 @@ This is the output we get after execution. This simply represent the bounding bo
  [(36, 792), (84, 832), 'box', 'Corporation'],
  [(258, 930), (306, 974), 'box', 'card_yes']]
 ```
-## ocr.py.
+## ocr.py
 
 In this python script the actual extraction of informations from the image takes place.
 
